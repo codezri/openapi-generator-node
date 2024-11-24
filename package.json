@@ -1,0 +1,16 @@
+{
+  "name": "openapi-generator-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "swagger-jsdoc": "^6.2.8"
+  }
+}
