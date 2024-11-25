@@ -41,7 +41,7 @@ let products = [];
  *           type: integer
  *         name:
  *           type: string
-*     Error:
+*     ErrorMessage:
  *       type: object
  *       properties:
  *         error:
@@ -98,7 +98,7 @@ app.get('/products', (req, res) => {
  *         content:
  *           application/json:
  *             schema:
- *               $ref: '#/components/schemas/Error' 
+ *               $ref: '#/components/schemas/ErrorMessage' 
 */
 app.post('/products', (req, res) => {
     const { name } = req.body;
